@@ -81,5 +81,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/:path((?!api/|rider|paltong-rider\\.apk|\\.well-known/).*)",
+      "destination": "https://paltong-order.com/:path",
+      "permanent": false
+    }
   ]
 }
